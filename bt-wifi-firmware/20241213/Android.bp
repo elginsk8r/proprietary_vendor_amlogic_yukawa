@@ -1,0 +1,55 @@
+prebuilt_firmware {
+    name: "yukawa_brcmfmac4359_vim3l_bin",
+    src: "brcmfmac4359-sdio.khadas,vim3l.bin",
+    sub_dir: "brcm",
+    filename: "brcmfmac4359-sdio.bin",
+    proprietary: true,
+}
+
+prebuilt_firmware {
+    name: "yukawa_brcmfmac4359_vim3l_txt",
+    src: "brcmfmac4359-sdio.khadas,vim3l.txt",
+    sub_dir: "brcm",
+    filename: "brcmfmac4359-sdio.txt",
+    proprietary: true,
+}
+
+prebuilt_firmware {
+    name: "yukawa_brcmfmac4359_ag_bin",
+    src: "fw_bcm4359c0_ag.bin",
+    sub_dir: "brcm",
+    filename: "fw_bcm4359c0_ag.bin",
+    proprietary: true,
+}
+
+prebuilt_firmware {
+    name: "yukawa_brcmfmac4356_ag_bin",
+    src: "fw_bcm4356a2_ag.bin",
+    sub_dir: "brcm",
+    filename: "fw_bcm4356a2_ag.bin",
+    proprietary: true,
+}
+
+prebuilt_firmware {
+    name: "yukawa_nvram",
+    src: "nvram_ap6359.txt",
+    sub_dir: "brcm",
+    filename: "nvram.txt",
+    proprietary: true,
+}
+
+prebuilt_firmware {
+    name: "yukawa_bcm4356A2_hcd",
+    src: "BCM4356A2.hcd",
+    sub_dir: "brcm",
+    filename: "BCM4356A2.hcd",
+    proprietary: true,
+}
+
+prebuilt_firmware {
+    name: "yukawa_bcm_hcd",
+    src: "BCM.hcd",
+    sub_dir: "brcm",
+    filename: "BCM.hcd",
+    proprietary: true,
+}
